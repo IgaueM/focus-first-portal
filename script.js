@@ -6,12 +6,10 @@
   const showAllButton = document.getElementById("show-all");
   const filterButtons = [...document.querySelectorAll("[data-category]")];
   const purposeButtons = [...document.querySelectorAll("[data-purpose]")];
-  const courseButtons = [...document.querySelectorAll("[data-course]")];
   const menuButton = document.querySelector(".menu-button");
   const navigation = document.getElementById("main-navigation");
   let activeCategory = "すべて";
   let activePurpose = null;
-  let activeCourse = null;
   let expanded = false;
 
   const escapeHtml = value => value.replace(/[&<>'"]/g, character => ({
@@ -33,23 +31,21 @@
   };
 
   const filteredArticles = () => articles.filter(article => {
-    if (activeCourse) return article.course?.includes(activeCourse);
     if (activePurpose) return article.purposes.includes(activePurpose);
     return activeCategory === "すべて" || article.category === activeCategory;
   });
 
   const renderArticles = () => {
     const matching = filteredArticles();
-    const visible = expanded || activeCategory !== "すべて" || activePurpose || activeCourse ? matching : matching.slice(0, 6);
+    const visible = expanded || activeCategory !== "すべて" || activePurpose ? matching : matching.slice(0, 6);
     articleGrid.innerHTML = visible.map((article, index) => articleCard(article, index)).join("");
-    const label = activeCourse ? "おすすめコース" : activePurpose ? `目的「${activePurpose}」` : activeCategory === "すべて" ? "おすすめ" : `テーマ「${activeCategory}」`;
+    const label = activePurpose ? `目的「${activePurpose}」` : activeCategory === "すべて" ? "おすすめ" : `テーマ「${activeCategory}」`;
     articleStatus.textContent = `${label}の記事を${matching.length}件表示しています。`;
-    showAllButton.hidden = Boolean(activePurpose || activeCourse || activeCategory !== "すべて" || expanded || matching.length <= 6);
+    showAllButton.hidden = Boolean(activePurpose || activeCategory !== "すべて" || expanded || matching.length <= 6);
   };
 
   const resetFilters = () => {
     activePurpose = null;
-    activeCourse = null;
     expanded = false;
     purposeButtons.forEach(button => button.classList.remove("selected"));
     filterButtons.forEach(button => {
@@ -67,7 +63,6 @@
 
   purposeButtons.forEach(button => button.addEventListener("click", () => {
     activePurpose = button.dataset.purpose;
-    activeCourse = null;
     activeCategory = "すべて";
     expanded = true;
     purposeButtons.forEach(item => item.classList.toggle("selected", item === button));
@@ -76,15 +71,6 @@
       item.classList.toggle("active", selected);
       item.setAttribute("aria-pressed", String(selected));
     });
-    renderArticles();
-    document.getElementById("topics").scrollIntoView({ behavior: "smooth" });
-  }));
-
-  courseButtons.forEach(button => button.addEventListener("click", () => {
-    activeCourse = button.dataset.course;
-    activePurpose = null;
-    activeCategory = "すべて";
-    expanded = true;
     renderArticles();
     document.getElementById("topics").scrollIntoView({ behavior: "smooth" });
   }));
