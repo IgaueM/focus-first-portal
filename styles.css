@@ -97,10 +97,8 @@ button { font: inherit; }
 .course-grid button:hover, .course-grid button:focus-visible { background: #82c5ff; color: var(--navy-950); }
 
 .book-section { padding: clamp(72px, 10vw, 130px) clamp(28px, 12vw, 180px); display: grid; grid-template-columns: minmax(220px, 330px) minmax(0, 1fr); gap: clamp(45px, 8vw, 110px); align-items: center; color: var(--white); background: linear-gradient(135deg, var(--navy-800), var(--navy-950)); }
-.book-cover { aspect-ratio: .71; padding: 32px; display: flex; flex-direction: column; justify-content: space-between; color: var(--navy-950); background: linear-gradient(145deg, #fffdf7, #e8dfca); box-shadow: 0 28px 60px rgba(0,0,0,.35); transform: rotate(-2deg); }
-.book-cover > span { font-size: .72rem; letter-spacing: .18em; }
-.book-cover strong { font-size: clamp(2.1rem, 4vw, 3.5rem); line-height: 1.25; }
-.book-cover small { line-height: 1.7; }
+.book-visual { margin: 0; }
+.book-cover-image { display: block; width: 100%; height: auto; box-shadow: 0 28px 60px rgba(0,0,0,.35); transform: rotate(-2deg); }
 .eyebrow.light { color: #9ed2ff; }
 .book-copy h2 { color: var(--white); }
 .book-copy > p:not(.eyebrow):not(.affiliate-note) { max-width: 700px; color: #d2dde8; }
@@ -153,7 +151,7 @@ button { font: inherit; }
   .starter-card, .article-card { min-height: auto; }
   .purpose-card { min-height: 150px; }
   .book-section { padding: 74px 26px; grid-template-columns: 1fr; }
-  .book-cover { width: min(70vw, 250px); margin: 0 auto; }
+  .book-visual { width: min(70vw, 250px); margin: 0 auto; }
   .button-row .button { width: 100%; }
   .text-link-light { width: 100%; text-align: center; }
   .book-copy dl > div { grid-template-columns: 65px 1fr; }

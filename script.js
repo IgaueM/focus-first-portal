@@ -24,7 +24,7 @@
       <div class="article-meta"><span>${escapeHtml(article.category)}</span><span>約${article.minutes}分</span></div>
       <h3>${escapeHtml(article.title)}</h3>
       <p>${escapeHtml(article.summary)}</p>
-      <a href="${article.url}" target="_blank" rel="noopener noreferrer">${starter ? "この順番で読む" : "記事を読む"}<span aria-hidden="true"> →</span></a>
+      <a href="${article.url}" target="_blank" rel="noopener noreferrer">${starter ? "この記事を読む" : "記事を読む"}<span aria-hidden="true"> →</span></a>
     </article>`;
 
   const renderStarter = () => {
