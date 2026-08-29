@@ -15,7 +15,7 @@ window.FOCUS_ARTICLES = [
     id: "three-modes",
     title: "「集中力」は1種類ではない。3つの仕事モードを使い分ける",
     summary: "ディープ、フロー、シャロー。仕事の難易度に合わせて、集中力の使い方を変えます。",
-    category: "3つの仕事モード",
+    category: "基本・考え方",
     purposes: ["集中できない", "仕事効率化", "勉強効率化"],
     minutes: 9,
     priority: 2,
@@ -61,7 +61,7 @@ window.FOCUS_ARTICLES = [
     id: "japan-work",
     title: "なぜ日本人は真面目なのに仕事で成果を出せないのか？",
     summary: "会議、通知、オフィス、評価を見直し、集中できる職場を組織として設計します。",
-    category: "組織・環境",
+    category: "実践・時間管理",
     purposes: ["管理職・経営者", "仕事効率化", "集中できない"],
     minutes: 10,
     priority: 6,
@@ -118,5 +118,25 @@ window.FOCUS_ARTICLES = [
     minutes: 10,
     priority: 11,
     url: "https://www.vbarpa.com/post/%E4%BB%95%E4%BA%8B%E3%81%AE%E6%88%90%E6%9E%9C%E3%82%92%E6%9C%80%E5%A4%A7%E5%8C%96%E3%81%99%E3%82%8B%E3%80%8C3s%E3%80%8D-%E3%82%B9%E3%82%AD%E3%83%AB%E3%83%BB%E5%AE%9F%E7%B8%BE%E3%83%BB%E4%BA%BA%E8%84%88%E3%82%92%E3%83%90%E3%83%A9%E3%83%B3%E3%82%B9%E3%82%88%E3%81%8F%E9%8D%9B%E3%81%88%E3%82%8B"
+  },
+  {
+    id: "deep-work-process",
+    title: "仕事と勉強の効率を高める「ディープワーク」とは？ 深い集中へ入る6つの実践プロセス",
+    summary: "時間と環境を整え、一つの難しい知的作業へ深く集中するための6つの実践プロセスを紹介します。",
+    category: "3つの仕事モード",
+    purposes: ["集中できない", "仕事効率化", "勉強効率化"],
+    minutes: 8,
+    priority: 12,
+    url: "https://www.vbarpa.com/post/%E4%BB%95%E4%BA%8B%E3%81%A8%E5%8B%89%E5%BC%B7%E3%81%AE%E5%8A%B9%E7%8E%87%E3%82%92%E9%AB%98%E3%82%81%E3%82%8B%E3%80%8C%E3%83%87%E3%82%A3%E3%83%BC%E3%83%97%E3%83%AF%E3%83%BC%E3%82%AF%E3%80%8D%E3%81%A8%E3%81%AF%EF%BC%9F-%E6%B7%B1%E3%81%84%E9%9B%86%E4%B8%AD%E3%81%B8%E5%85%A5%E3%82%8B6%E3%81%A4%E3%81%AE%E5%AE%9F%E8%B7%B5%E3%83%97%E3%83%AD%E3%82%BB%E3%82%B9"
+  },
+  {
+    id: "focus-nutrition",
+    title: "集中力を高める食事術――「何を食べるか」より「集中できる状態をどう作るか」",
+    summary: "食後の眠気や集中力低下を抑えるために、血糖値を安定させる食べ方と食後の過ごし方を紹介します。",
+    category: "体調・回復",
+    purposes: ["疲労・睡眠", "仕事効率化", "集中できない"],
+    minutes: 7,
+    priority: 13,
+    url: "https://www.vbarpa.com/post/%E9%9B%86%E4%B8%AD%E5%8A%9B%E3%82%92%E9%AB%98%E3%82%81%E3%82%8B%E9%A3%9F%E4%BA%8B%E8%A1%93%E2%80%95%E2%80%95%E3%80%8C%E4%BD%95%E3%82%92%E9%A3%9F%E3%81%B9%E3%82%8B%E3%81%8B%E3%80%8D%E3%82%88%E3%82%8A%E3%80%8C%E9%9B%86%E4%B8%AD%E3%81%A7%E3%81%8D%E3%82%8B%E7%8A%B6%E6%85%8B%E3%82%92%E3%81%A9%E3%81%86%E4%BD%9C%E3%82%8B%E3%81%8B%E3%80%8D"
   }
 ];
