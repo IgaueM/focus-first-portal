@@ -1,0 +1,112 @@
+(() => {
+  const articles = [...window.FOCUS_ARTICLES].sort((a, b) => a.priority - b.priority);
+  const starterContainer = document.getElementById("starter-articles");
+  const articleGrid = document.getElementById("article-grid");
+  const articleStatus = document.getElementById("article-status");
+  const showAllButton = document.getElementById("show-all");
+  const filterButtons = [...document.querySelectorAll("[data-category]")];
+  const purposeButtons = [...document.querySelectorAll("[data-purpose]")];
+  const courseButtons = [...document.querySelectorAll("[data-course]")];
+  const menuButton = document.querySelector(".menu-button");
+  const navigation = document.getElementById("main-navigation");
+  let activeCategory = "すべて";
+  let activePurpose = null;
+  let activeCourse = null;
+  let expanded = false;
+
+  const escapeHtml = value => value.replace(/[&<>'"]/g, character => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;"
+  })[character]);
+
+  const articleCard = (article, index, starter = false) => `
+    <article class="${starter ? "starter-card" : "article-card"}">
+      ${starter ? `<span class="step-number">0${index + 1}</span>` : ""}
+      <div class="article-meta"><span>${escapeHtml(article.category)}</span><span>約${article.minutes}分</span></div>
+      <h3>${escapeHtml(article.title)}</h3>
+      <p>${escapeHtml(article.summary)}</p>
+      <a href="${article.url}" target="_blank" rel="noopener noreferrer">${starter ? "この順番で読む" : "記事を読む"}<span aria-hidden="true"> →</span></a>
+    </article>`;
+
+  const renderStarter = () => {
+    const starters = articles.filter(article => article.starter).sort((a, b) => a.starter - b.starter);
+    starterContainer.innerHTML = starters.map((article, index) => articleCard(article, index, true)).join("");
+  };
+
+  const filteredArticles = () => articles.filter(article => {
+    if (activeCourse) return article.course?.includes(activeCourse);
+    if (activePurpose) return article.purposes.includes(activePurpose);
+    return activeCategory === "すべて" || article.category === activeCategory;
+  });
+
+  const renderArticles = () => {
+    const matching = filteredArticles();
+    const visible = expanded || activeCategory !== "すべて" || activePurpose || activeCourse ? matching : matching.slice(0, 6);
+    articleGrid.innerHTML = visible.map((article, index) => articleCard(article, index)).join("");
+    const label = activeCourse ? "おすすめコース" : activePurpose ? `目的「${activePurpose}」` : activeCategory === "すべて" ? "おすすめ" : `テーマ「${activeCategory}」`;
+    articleStatus.textContent = `${label}の記事を${matching.length}件表示しています。`;
+    showAllButton.hidden = Boolean(activePurpose || activeCourse || activeCategory !== "すべて" || expanded || matching.length <= 6);
+  };
+
+  const resetFilters = () => {
+    activePurpose = null;
+    activeCourse = null;
+    expanded = false;
+    purposeButtons.forEach(button => button.classList.remove("selected"));
+    filterButtons.forEach(button => {
+      const selected = button.dataset.category === activeCategory;
+      button.classList.toggle("active", selected);
+      button.setAttribute("aria-pressed", String(selected));
+    });
+  };
+
+  filterButtons.forEach(button => button.addEventListener("click", () => {
+    activeCategory = button.dataset.category;
+    resetFilters();
+    renderArticles();
+  }));
+
+  purposeButtons.forEach(button => button.addEventListener("click", () => {
+    activePurpose = button.dataset.purpose;
+    activeCourse = null;
+    activeCategory = "すべて";
+    expanded = true;
+    purposeButtons.forEach(item => item.classList.toggle("selected", item === button));
+    filterButtons.forEach(item => {
+      const selected = item.dataset.category === "すべて";
+      item.classList.toggle("active", selected);
+      item.setAttribute("aria-pressed", String(selected));
+    });
+    renderArticles();
+    document.getElementById("topics").scrollIntoView({ behavior: "smooth" });
+  }));
+
+  courseButtons.forEach(button => button.addEventListener("click", () => {
+    activeCourse = button.dataset.course;
+    activePurpose = null;
+    activeCategory = "すべて";
+    expanded = true;
+    renderArticles();
+    document.getElementById("topics").scrollIntoView({ behavior: "smooth" });
+  }));
+
+  showAllButton.addEventListener("click", () => {
+    expanded = true;
+    renderArticles();
+  });
+
+  menuButton.addEventListener("click", () => {
+    const open = menuButton.getAttribute("aria-expanded") === "true";
+    menuButton.setAttribute("aria-expanded", String(!open));
+    navigation.classList.toggle("open", !open);
+  });
+
+  navigation.addEventListener("click", event => {
+    if (event.target.matches("a")) {
+      menuButton.setAttribute("aria-expanded", "false");
+      navigation.classList.remove("open");
+    }
+  });
+
+  renderStarter();
+  renderArticles();
+})();
