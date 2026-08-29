@@ -31,7 +31,6 @@ window.FOCUS_ARTICLES = [
     purposes: ["仕事効率化", "集中できない"],
     minutes: 8,
     priority: 3,
-    starter: 3,
     course: ["business"],
     url: "https://www.vbarpa.com/post/%E6%85%A3%E3%82%8C%E3%81%9F%E4%BB%95%E4%BA%8B%E3%82%92%E9%80%9F%E3%81%8F%E3%80%81%E9%95%B7%E3%81%8F%E3%80%81%E6%B0%97%E6%8C%81%E3%81%A1%E3%82%88%E3%81%8F%E9%80%B2%E3%82%81%E3%82%8B%E3%80%8C%E3%83%95%E3%83%AD%E3%83%BC%E3%83%AF%E3%83%BC%E3%82%AF%E3%80%8D%E3%81%A8%E3%81%AF%EF%BC%9F-6%E3%81%A4%E3%81%AE%E5%AE%9F%E8%B7%B5%E3%83%97%E3%83%AD%E3%82%BB%E3%82%B9"
   },
@@ -127,6 +126,7 @@ window.FOCUS_ARTICLES = [
     purposes: ["集中できない", "仕事効率化", "勉強効率化"],
     minutes: 8,
     priority: 12,
+    starter: 3,
     url: "https://www.vbarpa.com/post/%E4%BB%95%E4%BA%8B%E3%81%A8%E5%8B%89%E5%BC%B7%E3%81%AE%E5%8A%B9%E7%8E%87%E3%82%92%E9%AB%98%E3%82%81%E3%82%8B%E3%80%8C%E3%83%87%E3%82%A3%E3%83%BC%E3%83%97%E3%83%AF%E3%83%BC%E3%82%AF%E3%80%8D%E3%81%A8%E3%81%AF%EF%BC%9F-%E6%B7%B1%E3%81%84%E9%9B%86%E4%B8%AD%E3%81%B8%E5%85%A5%E3%82%8B6%E3%81%A4%E3%81%AE%E5%AE%9F%E8%B7%B5%E3%83%97%E3%83%AD%E3%82%BB%E3%82%B9"
   },
   {
@@ -173,7 +173,7 @@ window.FOCUS_ARTICLES = [
     id: "hyperfocus-deep-work",
     title: "ハイパーフォーカスとディープワークの違いとは？発達特性を強みに変える集中法",
     summary: "制御しにくい過集中と、時間や環境を意図的に設計するディープワークの違いを整理します。",
-    category: "基本・考え方",
+    category: "発達障害の仕事術",
     purposes: ["集中できない", "仕事効率化", "AI・キャリア"],
     minutes: 9,
     priority: 17,
@@ -203,7 +203,7 @@ window.FOCUS_ARTICLES = [
     id: "developmental-hyperfocus",
     title: "発達障害は「ハイパーフォーカス×ディープワーク×専門性」が勝利の鍵！",
     summary: "自分の特性を理解し、過集中を管理された集中へ変え、興味を仕事につながる専門性へ育てる方法を考えます。",
-    category: "基本・考え方",
+    category: "発達障害の仕事術",
     purposes: ["集中できない", "仕事効率化", "AI・キャリア"],
     minutes: 7,
     priority: 20,
