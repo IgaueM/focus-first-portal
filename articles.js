@@ -1,6 +1,7 @@
 window.FOCUS_ARTICLES = [
   {
     id: "intro",
+    image: "https://static.wixstatic.com/media/965064_3d759edb778c4061912dbf9d6d8ba786~mv2.png/v1/fill/w_1000,h_563,al_c,q_90,usm_0.66_1.00_0.01/965064_3d759edb778c4061912dbf9d6d8ba786~mv2.png",
     title: "「集中力ファースト」とは？ AI時代に、成果を生む時間を取り戻す",
     summary: "集中力を本人の根性ではなく、時間と環境で守る考え方。その全体像と必要性を紹介します。",
     category: "基本・考え方",
@@ -13,6 +14,7 @@ window.FOCUS_ARTICLES = [
   },
   {
     id: "three-modes",
+    image: "https://static.wixstatic.com/media/965064_0c41684675af4959a5d0d63d6df206b1~mv2.png/v1/fill/w_1000,h_708,al_c,q_90,usm_0.66_1.00_0.01/965064_0c41684675af4959a5d0d63d6df206b1~mv2.png",
     title: "「集中力」は1種類ではない。3つの仕事モードを使い分ける",
     summary: "ディープ、フロー、シャロー。仕事の難易度に合わせて、集中力の使い方を変えます。",
     category: "基本・考え方",
@@ -25,6 +27,7 @@ window.FOCUS_ARTICLES = [
   },
   {
     id: "flow-work",
+    image: "https://static.wixstatic.com/media/965064_3ac436b93ef94c01aaa4de6c63cba0ef~mv2.png/v1/fill/w_1000,h_667,al_c,q_90,usm_0.66_1.00_0.01/965064_3ac436b93ef94c01aaa4de6c63cba0ef~mv2.png",
     title: "慣れた仕事を速く、長く、気持ちよく進める「フローワーク」とは？",
     summary: "メールや資料整理など、慣れた仕事を安定して進める6つの実践プロセスです。",
     category: "3つの仕事モード",
@@ -36,6 +39,7 @@ window.FOCUS_ARTICLES = [
   },
   {
     id: "study",
+    image: "https://static.wixstatic.com/media/965064_395e155b42f34d96b235da1835860819~mv2.png/v1/fill/w_1000,h_563,al_c,q_90,usm_0.66_1.00_0.01/965064_395e155b42f34d96b235da1835860819~mv2.png",
     title: "勉強の効率を最大5倍に上げる「ディープワーク式勉強法」",
     summary: "学生や学び直しに役立つ、3つの集中モードを使い分ける勉強法です。",
     category: "実践・時間管理",
@@ -47,6 +51,7 @@ window.FOCUS_ARTICLES = [
   },
   {
     id: "sleep",
+    image: "https://static.wixstatic.com/media/965064_e7ad8be6a1624942b3a730e38aa1c334~mv2.png/v1/fill/w_1000,h_563,al_c,q_90,usm_0.66_1.00_0.01/965064_e7ad8be6a1624942b3a730e38aa1c334~mv2.png",
     title: "集中力を高める睡眠のコツ——眠る時間は、明日の成果への投資",
     summary: "睡眠を余った時間の休息ではなく、翌日の成果を支える投資として考えます。",
     category: "体調・回復",
@@ -58,6 +63,7 @@ window.FOCUS_ARTICLES = [
   },
   {
     id: "japan-work",
+    image: "https://static.wixstatic.com/media/965064_58c576c963e64b2a899768fb77edd745~mv2.png/v1/fill/w_1000,h_563,al_c,q_90,usm_0.66_1.00_0.01/965064_58c576c963e64b2a899768fb77edd745~mv2.png",
     title: "なぜ日本人は真面目なのに仕事で成果を出せないのか？",
     summary: "会議、通知、オフィス、評価を見直し、集中できる職場を組織として設計します。",
     category: "実践・時間管理",
@@ -69,6 +75,7 @@ window.FOCUS_ARTICLES = [
   },
   {
     id: "work-shine",
+    image: "https://static.wixstatic.com/media/965064_3e943d745fca4f2ba17d2c8f7b78218a~mv2.png/v1/fill/w_1000,h_667,al_c,q_90,usm_0.66_1.00_0.01/965064_3e943d745fca4f2ba17d2c8f7b78218a~mv2.png",
     title: "ディープワークがもたらす幸福と圧倒的な成果",
     summary: "深く集中することを、成果だけでなく成長や充実感につながる働き方として考えます。",
     category: "基本・考え方",
@@ -80,6 +87,7 @@ window.FOCUS_ARTICLES = [
   },
   {
     id: "ai-alien",
+    image: "https://static.wixstatic.com/media/965064_c5d25a89965346b6bd2b8b362f090c08~mv2.png/v1/fill/w_1000,h_667,al_c,q_90,usm_0.66_1.00_0.01/965064_c5d25a89965346b6bd2b8b362f090c08~mv2.png",
     title: "AIは「ドラえもん」ではなく「エイリアン」である",
     summary: "AIを人間の万能な代役と考えず、異なる知性として役割を分ける視点を紹介します。",
     category: "AI・キャリア",
@@ -90,6 +98,7 @@ window.FOCUS_ARTICLES = [
   },
   {
     id: "talent-stack",
+    image: "https://static.wixstatic.com/media/965064_e2ef1b42070f4732bca3b9e4b11a22b1~mv2.png/v1/fill/w_1000,h_667,al_c,q_90,usm_0.66_1.00_0.01/965064_e2ef1b42070f4732bca3b9e4b11a22b1~mv2.png",
     title: "「そこそこ」のスキルを掛け合わせて勝つ——タレントスタック",
     summary: "一つの突出した能力だけに頼らず、複数のスキルを組み合わせて独自性をつくります。",
     category: "AI・キャリア",
@@ -100,6 +109,7 @@ window.FOCUS_ARTICLES = [
   },
   {
     id: "career-halves",
+    image: "https://static.wixstatic.com/media/965064_3710d9a3e43c4c94a36cfd36aba9ae23~mv2.png/v1/fill/w_1000,h_667,al_c,q_90,usm_0.66_1.00_0.01/965064_3710d9a3e43c4c94a36cfd36aba9ae23~mv2.png",
     title: "仕事の戦い方は「前半」と「後半」でガラリと変わる",
     summary: "40歳以降も力を発揮するために、経験と専門性を生かした長期キャリアを考えます。",
     category: "AI・キャリア",
@@ -110,6 +120,7 @@ window.FOCUS_ARTICLES = [
   },
   {
     id: "three-s",
+    image: "https://static.wixstatic.com/media/965064_ddd48236746c4c259f7faef9f60dbfd0~mv2.png/v1/fill/w_1000,h_667,al_c,q_90,usm_0.66_1.00_0.01/965064_ddd48236746c4c259f7faef9f60dbfd0~mv2.png",
     title: "仕事の成果を最大化する「3S」——スキル・実績・人脈",
     summary: "能力だけに偏らず、Skill・Success・Socialをバランスよく積み上げます。",
     category: "AI・キャリア",
@@ -120,6 +131,7 @@ window.FOCUS_ARTICLES = [
   },
   {
     id: "deep-work-process",
+    image: "https://static.wixstatic.com/media/965064_c9c19e2a0f0a44e185d00b2f46497b63~mv2.png/v1/fill/w_1000,h_563,al_c,q_90,usm_0.66_1.00_0.01/965064_c9c19e2a0f0a44e185d00b2f46497b63~mv2.png",
     title: "仕事と勉強の効率を高める「ディープワーク」とは？ 深い集中へ入る6つの実践プロセス",
     summary: "時間と環境を整え、一つの難しい知的作業へ深く集中するための6つの実践プロセスを紹介します。",
     category: "3つの仕事モード",
@@ -131,6 +143,7 @@ window.FOCUS_ARTICLES = [
   },
   {
     id: "focus-nutrition",
+    image: "https://static.wixstatic.com/media/965064_22978c30faca45b6932d5a49c58caa17~mv2.png/v1/fill/w_1000,h_750,al_c,q_90,usm_0.66_1.00_0.01/965064_22978c30faca45b6932d5a49c58caa17~mv2.png",
     title: "集中力を高める食事術――「何を食べるか」より「集中できる状態をどう作るか」",
     summary: "食後の眠気や集中力低下を抑えるために、血糖値を安定させる食べ方と食後の過ごし方を紹介します。",
     category: "体調・回復",
@@ -141,6 +154,7 @@ window.FOCUS_ARTICLES = [
   },
   {
     id: "flow-ancient-wisdom",
+    image: "https://static.wixstatic.com/media/965064_0f1407db57044e22a17d70df04dfb790~mv2.png/v1/fill/w_1000,h_667,al_c,q_90,usm_0.66_1.00_0.01/965064_0f1407db57044e22a17d70df04dfb790~mv2.png",
     title: "＜明鏡止水＞古来から「フロー」に類似した概念は存在し、多くの人が人生の目的にした＜無為自然＞",
     summary: "明鏡止水や無為自然など、古代思想に見られるフローに近い精神状態と、集中力を人生に生かす考え方を紹介します。",
     category: "基本・考え方",
@@ -151,6 +165,7 @@ window.FOCUS_ARTICLES = [
   },
   {
     id: "attention-span-maxxing",
+    image: "https://static.wixstatic.com/media/965064_23a904da6d0f4a6f922a7fe58847bc2e~mv2.png/v1/fill/w_1000,h_563,al_c,q_90,usm_0.66_1.00_0.01/965064_23a904da6d0f4a6f922a7fe58847bc2e~mv2.png",
     title: "アテンション・スパン・マキシングとは？「集中できる時間」を取り戻す新しい習慣",
     summary: "注意を持続・回復・管理する力を、生活習慣と環境の見直しによって整える新しい考え方を紹介します。",
     category: "実践・時間管理",
@@ -161,6 +176,7 @@ window.FOCUS_ARTICLES = [
   },
   {
     id: "shallow-work",
+    image: "https://static.wixstatic.com/media/965064_ea60627057df49a6b8e42f2537ade9d4~mv2.png/v1/fill/w_1000,h_549,al_c,q_90,usm_0.66_1.00_0.01/965064_ea60627057df49a6b8e42f2537ade9d4~mv2.png",
     title: "シャローワークを味方につける――「回復・整備・接続」で仕事を再設計する",
     summary: "浅い仕事を単なる雑務にせず、集中後の回復、仕事の整備、人との接続に生かす方法を紹介します。",
     category: "3つの仕事モード",
@@ -171,6 +187,7 @@ window.FOCUS_ARTICLES = [
   },
   {
     id: "hyperfocus-deep-work",
+    image: "https://static.wixstatic.com/media/965064_3f7e2e121dcf4526bac4a618e17898f7~mv2.png/v1/fill/w_1000,h_667,al_c,q_90,usm_0.66_1.00_0.01/965064_3f7e2e121dcf4526bac4a618e17898f7~mv2.png",
     title: "ハイパーフォーカスとディープワークの違いとは？発達特性を強みに変える集中法",
     summary: "制御しにくい過集中と、時間や環境を意図的に設計するディープワークの違いを整理します。",
     category: "発達障害の仕事術",
@@ -181,6 +198,7 @@ window.FOCUS_ARTICLES = [
   },
   {
     id: "focus-coffee",
+    image: "https://static.wixstatic.com/media/965064_16c0f572c1a24ff085062d3bea500c08~mv2.png/v1/fill/w_1000,h_563,al_c,q_90,usm_0.66_1.00_0.01/965064_16c0f572c1a24ff085062d3bea500c08~mv2.png",
     title: "コーヒーは集中力だけじゃない。研究で見えてきた意外なメリット",
     summary: "コーヒーを集中の補助役として生かしながら、睡眠を守る量と飲む時間の考え方を紹介します。",
     category: "体調・回復",
@@ -191,6 +209,7 @@ window.FOCUS_ARTICLES = [
   },
   {
     id: "attention-span-deep-work",
+    image: "https://static.wixstatic.com/media/965064_0c0524f0453149e08a31f78bcb877aef~mv2.png/v1/fill/w_1000,h_667,al_c,q_90,usm_0.66_1.00_0.01/965064_0c0524f0453149e08a31f78bcb877aef~mv2.png",
     title: "アテンション・スパン・マキシングとディープワークの関係",
     summary: "集中の土台を整える取り組みと、その集中力を価値ある仕事へ投入するディープワークの関係を整理します。",
     category: "基本・考え方",
@@ -201,6 +220,7 @@ window.FOCUS_ARTICLES = [
   },
   {
     id: "developmental-hyperfocus",
+    image: "https://static.wixstatic.com/media/965064_86ad763a49eb4f19bd340bda48ba89c7~mv2.png/v1/fill/w_1000,h_563,al_c,q_90,usm_0.66_1.00_0.01/965064_86ad763a49eb4f19bd340bda48ba89c7~mv2.png",
     title: "発達障害は「ハイパーフォーカス×ディープワーク×専門性」が勝利の鍵！",
     summary: "自分の特性を理解し、過集中を管理された集中へ変え、興味を仕事につながる専門性へ育てる方法を考えます。",
     category: "発達障害の仕事術",
@@ -211,6 +231,7 @@ window.FOCUS_ARTICLES = [
   },
   {
     id: "focus-exercise",
+    image: "https://static.wixstatic.com/media/965064_b7bd4cfa134246d89d2d72f55abcccf2~mv2.png/v1/fill/w_1000,h_706,al_c,q_90,usm_0.66_1.00_0.01/965064_b7bd4cfa134246d89d2d72f55abcccf2~mv2.png",
     title: "「運動する時間」を新しく作らなくていい",
     summary: "通勤や日常の移動にインターバル速歩などを組み込み、体調・睡眠・ストレス耐性を整えて集中しやすい身体を作ります。",
     category: "体調・回復",
@@ -221,6 +242,7 @@ window.FOCUS_ARTICLES = [
   },
   {
     id: "jtc-side-business",
+    image: "https://static.wixstatic.com/media/965064_15e9ddef4c4245d298e281a8ded1cf10~mv2.png/v1/fill/w_1000,h_563,al_c,q_90,usm_0.66_1.00_0.01/965064_15e9ddef4c4245d298e281a8ded1cf10~mv2.png",
     title: "JTCは「生活基盤」として使えば強い。本業で守り、副業で攻める働き方",
     summary: "大企業の安定性を生活基盤として生かし、本業で収入を守りながら、副業では将来の資産になる挑戦へ時間を使う働き方です。",
     category: "AI・キャリア",
