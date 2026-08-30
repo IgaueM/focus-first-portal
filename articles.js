@@ -250,5 +250,16 @@ window.FOCUS_ARTICLES = [
     minutes: 8,
     priority: 22,
     url: "https://www.vbarpa.com/post/jtc%E3%81%AF%E3%80%8C%E7%94%9F%E6%B4%BB%E5%9F%BA%E7%9B%A4%E3%80%8D%E3%81%A8%E3%81%97%E3%81%A6%E4%BD%BF%E3%81%88%E3%81%B0%E5%BC%B7%E3%81%84%E3%80%82%E6%9C%AC%E6%A5%AD%E3%81%A7%E5%AE%88%E3%82%8A%E3%80%81%E5%89%AF%E6%A5%AD%E3%81%A7%E6%94%BB%E3%82%81%E3%82%8B%E5%83%8D%E3%81%8D%E6%96%B9"
+  },
+  {
+    id: "ai-workout",
+    image: "https://static.wixstatic.com/media/965064_a5dd0e582e2645b7b937e17f3a6ef553~mv2.png/v1/fill/w_1000,h_563,al_c,q_90,usm_0.66_1.00_0.01/965064_a5dd0e582e2645b7b937e17f3a6ef553~mv2.png",
+    title: "AIを「答えを出す道具」にしない。思考力を鍛える「AIワークアウト」という使い方",
+    summary: "AIに正解を求めるのではなく、対話から別の視点や反論を引き出し、思考力と発想力を鍛える使い方を紹介します。",
+    category: "AI・キャリア",
+    purposes: ["AI・キャリア", "勉強効率化", "仕事効率化"],
+    minutes: 7,
+    priority: 23,
+    url: "https://www.vbarpa.com/post/ai%E3%82%92%E3%80%8C%E7%AD%94%E3%81%88%E3%82%92%E5%87%BA%E3%81%99%E9%81%93%E5%85%B7%E3%80%8D%E3%81%AB%E3%81%97%E3%81%AA%E3%81%84%E3%80%82%E6%80%9D%E8%80%83%E5%8A%9B%E3%82%92%E9%8D%9B%E3%81%88%E3%82%8B%E3%80%8Cai%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%A2%E3%82%A6%E3%83%88%E3%80%8D%E3%81%A8%E3%81%84%E3%81%86%E4%BD%BF%E3%81%84%E6%96%B9"
   }
 ];
