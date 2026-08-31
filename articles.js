@@ -261,5 +261,16 @@ window.FOCUS_ARTICLES = [
     minutes: 7,
     priority: 23,
     url: "https://www.vbarpa.com/post/ai%E3%82%92%E3%80%8C%E7%AD%94%E3%81%88%E3%82%92%E5%87%BA%E3%81%99%E9%81%93%E5%85%B7%E3%80%8D%E3%81%AB%E3%81%97%E3%81%AA%E3%81%84%E3%80%82%E6%80%9D%E8%80%83%E5%8A%9B%E3%82%92%E9%8D%9B%E3%81%88%E3%82%8B%E3%80%8Cai%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%A2%E3%82%A6%E3%83%88%E3%80%8D%E3%81%A8%E3%81%84%E3%81%86%E4%BD%BF%E3%81%84%E6%96%B9"
+  },
+  {
+    id: "deep-work-twenty-percent-rule",
+    image: "https://static.wixstatic.com/media/965064_edae1fd2151446e09f9addbbde3b2684~mv2.png/v1/fill/w_1000,h_563,al_c,q_90,usm_0.66_1.00_0.01/965064_edae1fd2151446e09f9addbbde3b2684~mv2.png",
+    title: "ノベーションを生む「集中」と「余白」――ディープワークと20％ルールの相乗効果",
+    summary: "一つの課題を深く考える集中時間と、通常業務から離れて自由に考える余白を組み合わせ、組織の創造性を高めます。",
+    category: "基本・考え方",
+    purposes: ["管理職・経営者", "仕事効率化", "AI・キャリア"],
+    minutes: 7,
+    priority: 24,
+    url: "https://www.vbarpa.com/post/%E3%83%8E%E3%83%99%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%92%E7%94%9F%E3%82%80%E3%80%8C%E9%9B%86%E4%B8%AD%E3%80%8D%E3%81%A8%E3%80%8C%E4%BD%99%E7%99%BD%E3%80%8D%E2%80%95%E2%80%95%E3%83%87%E3%82%A3%E3%83%BC%E3%83%97%E3%83%AF%E3%83%BC%E3%82%AF%E3%81%A820-%E3%83%AB%E3%83%BC%E3%83%AB%E3%81%AE%E7%9B%B8%E4%B9%97%E5%8A%B9%E6%9E%9C"
   }
 ];
