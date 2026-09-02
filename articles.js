@@ -272,5 +272,16 @@ window.FOCUS_ARTICLES = [
     minutes: 7,
     priority: 24,
     url: "https://www.vbarpa.com/post/%E3%83%8E%E3%83%99%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%92%E7%94%9F%E3%82%80%E3%80%8C%E9%9B%86%E4%B8%AD%E3%80%8D%E3%81%A8%E3%80%8C%E4%BD%99%E7%99%BD%E3%80%8D%E2%80%95%E2%80%95%E3%83%87%E3%82%A3%E3%83%BC%E3%83%97%E3%83%AF%E3%83%BC%E3%82%AF%E3%81%A820-%E3%83%AB%E3%83%BC%E3%83%AB%E3%81%AE%E7%9B%B8%E4%B9%97%E5%8A%B9%E6%9E%9C"
+  },
+  {
+    id: "child-response-cat-bond",
+    image: "https://static.wixstatic.com/media/965064_93b6b61a258b455b9f838dcfcd790227~mv2.png/v1/fill/w_1000,h_563,al_c,q_90,usm_0.66_1.00_0.01/965064_93b6b61a258b455b9f838dcfcd790227~mv2.png",
+    title: "【「1秒のレスポンス」と「猫との絆」から考える、子どもの脳と社会性を育むコミュニケーション】",
+    summary: "乳幼児への素早い応答と、発達障害のある子どもと猫との関係に関する研究から、安心感と社会性を育む対話を考えます。",
+    category: "発達障害の仕事術",
+    purposes: ["集中できない", "AI・キャリア"],
+    minutes: 7,
+    priority: 25,
+    url: "https://www.vbarpa.com/post/%E3%80%90%E3%80%8C1%E7%A7%92%E3%81%AE%E3%83%AC%E3%82%B9%E3%83%9D%E3%83%B3%E3%82%B9%E3%80%8D%E3%81%A8%E3%80%8C%E7%8C%AB%E3%81%A8%E3%81%AE%E7%B5%86%E3%80%8D%E3%81%8B%E3%82%89%E8%80%83%E3%81%88%E3%82%8B%E3%80%81%E5%AD%90%E3%81%A9%E3%82%82%E3%81%AE%E8%84%B3%E3%81%A8%E7%A4%BE%E4%BC%9A%E6%80%A7%E3%82%92%E8%82%B2%E3%82%80%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%80%91"
   }
 ];
