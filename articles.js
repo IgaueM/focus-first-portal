@@ -283,5 +283,16 @@ window.FOCUS_ARTICLES = [
     minutes: 7,
     priority: 25,
     url: "https://www.vbarpa.com/post/%E3%80%90%E3%80%8C1%E7%A7%92%E3%81%AE%E3%83%AC%E3%82%B9%E3%83%9D%E3%83%B3%E3%82%B9%E3%80%8D%E3%81%A8%E3%80%8C%E7%8C%AB%E3%81%A8%E3%81%AE%E7%B5%86%E3%80%8D%E3%81%8B%E3%82%89%E8%80%83%E3%81%88%E3%82%8B%E3%80%81%E5%AD%90%E3%81%A9%E3%82%82%E3%81%AE%E8%84%B3%E3%81%A8%E7%A4%BE%E4%BC%9A%E6%80%A7%E3%82%92%E8%82%B2%E3%82%80%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%80%91"
+  },
+  {
+    id: "meaning-of-life-flow",
+    image: "https://static.wixstatic.com/media/965064_ecff9df9caf94f2ab7426bf93c67e183~mv2.png/v1/fill/w_1000,h_708,al_c,q_90,usm_0.66_1.00_0.01/965064_ecff9df9caf94f2ab7426bf93c67e183~mv2.png",
+    title: "「人生に意味はあるのか？」に対するひとつの答え〜「意味」を与えるのは自分をフロー状態に導くため〜",
+    summary: "人生の意味は最初から用意された答えではなく、自分で与えるもの。意味づけとフロー、集中、幸福感の関係を考えます。",
+    category: "基本・考え方",
+    purposes: ["集中できない", "AI・キャリア"],
+    minutes: 9,
+    priority: 26,
+    url: "https://www.vbarpa.com/post/%E3%80%8C%E4%BA%BA%E7%94%9F%E3%81%AB%E6%84%8F%E5%91%B3%E3%81%AF%E3%81%82%E3%82%8B%E3%81%AE%E3%81%8B%EF%BC%9F%E3%80%8D%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E3%81%B2%E3%81%A8%E3%81%A4%E3%81%AE%E7%AD%94%E3%81%88%E3%80%9C%E3%80%8C%E6%84%8F%E5%91%B3%E3%80%8D%E3%82%92%E4%B8%8E%E3%81%88%E3%82%8B%E3%81%AE%E3%81%AF%E3%80%81%E8%87%AA%E5%88%86%E3%82%92%E3%83%95%E3%83%AD%E3%83%BC%E7%8A%B6%E6%85%8B%E3%81%AB%E5%B0%8E%E3%81%8F%E3%81%9F%E3%82%81%E3%80%9C"
   }
 ];
