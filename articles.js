@@ -294,5 +294,49 @@ window.FOCUS_ARTICLES = [
     minutes: 9,
     priority: 26,
     url: "https://www.vbarpa.com/post/%E3%80%8C%E4%BA%BA%E7%94%9F%E3%81%AB%E6%84%8F%E5%91%B3%E3%81%AF%E3%81%82%E3%82%8B%E3%81%AE%E3%81%8B%EF%BC%9F%E3%80%8D%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E3%81%B2%E3%81%A8%E3%81%A4%E3%81%AE%E7%AD%94%E3%81%88%E3%80%9C%E3%80%8C%E6%84%8F%E5%91%B3%E3%80%8D%E3%82%92%E4%B8%8E%E3%81%88%E3%82%8B%E3%81%AE%E3%81%AF%E3%80%81%E8%87%AA%E5%88%86%E3%82%92%E3%83%95%E3%83%AD%E3%83%BC%E7%8A%B6%E6%85%8B%E3%81%AB%E5%B0%8E%E3%81%8F%E3%81%9F%E3%82%81%E3%80%9C"
+  },
+  {
+    id: "todai-study-environment",
+    image: "https://static.wixstatic.com/media/965064_bbb420d72ef24836810a39f1d2961ad9~mv2.png/v1/fill/w_1000,h_563,al_c,q_90,usm_0.66_1.00_0.01/965064_bbb420d72ef24836810a39f1d2961ad9~mv2.png",
+    title: "東大生の74％が「勉強は楽しい」――成果を生むのは、努力の量より“没頭できる環境”かもしれない",
+    summary: "勉強を楽しめる人の特徴から、努力量だけに頼らず、集中しやすく成果につながる学習環境のつくり方を考えます。",
+    category: "実践・時間管理",
+    purposes: ["勉強効率化", "集中できない"],
+    minutes: 4,
+    priority: 27,
+    url: "https://www.vbarpa.com/post/%E6%9D%B1%E5%A4%A7%E7%94%9F%E3%81%AE74-%E3%81%8C%E3%80%8C%E5%8B%89%E5%BC%B7%E3%81%AF%E6%A5%BD%E3%81%97%E3%81%84%E3%80%8D%E2%80%95%E2%80%95%E6%88%90%E6%9E%9C%E3%82%92%E7%94%9F%E3%82%80%E3%81%AE%E3%81%AF%E3%80%81%E5%8A%AA%E5%8A%9B%E3%81%AE%E9%87%8F%E3%82%88%E3%82%8A-%E6%B2%A1%E9%A0%AD%E3%81%A7%E3%81%8D%E3%82%8B%E7%92%B0%E5%A2%83-%E3%81%8B%E3%82%82%E3%81%97%E3%82%8C%E3%81%AA%E3%81%84"
+  },
+  {
+    id: "seven-flow-conditions",
+    image: "https://static.wixstatic.com/media/965064_c4733777cfa74788bb90da1f3f2c1bb9~mv2.png/v1/fill/w_1000,h_667,al_c,q_90,usm_0.66_1.00_0.01/965064_c4733777cfa74788bb90da1f3f2c1bb9~mv2.png",
+    title: "フローに入る7つの条件――「気合」ではなく、深く集中できる状況をつくる",
+    summary: "目標、フィードバック、難易度、時間、環境など、気合に頼らず深い没頭へ入りやすくする7つの条件を整理します。",
+    category: "3つの仕事モード",
+    purposes: ["集中できない", "仕事効率化", "勉強効率化"],
+    minutes: 9,
+    priority: 28,
+    url: "https://www.vbarpa.com/post/%E3%83%95%E3%83%AD%E3%83%BC%E3%81%AB%E5%85%A5%E3%82%8B7%E3%81%A4%E3%81%AE%E6%9D%A1%E4%BB%B6%E2%80%95%E2%80%95%E3%80%8C%E6%B0%97%E5%90%88%E3%80%8D%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%8F%E3%80%81%E6%B7%B1%E3%81%8F%E9%9B%86%E4%B8%AD%E3%81%A7%E3%81%8D%E3%82%8B%E7%8A%B6%E6%B3%81%E3%82%92%E3%81%A4%E3%81%8F%E3%82%8B"
+  },
+  {
+    id: "niche-top-business",
+    image: "https://static.wixstatic.com/media/965064_58aeb669e09c4dd7850d3c9f06a6255f~mv2.png/v1/fill/w_1000,h_667,al_c,q_90,usm_0.66_1.00_0.01/965064_58aeb669e09c4dd7850d3c9f06a6255f~mv2.png",
+    title: "小さな市場で、最初に思い出される存在になる。ニッチトップで新規事業を立ち上げる方法",
+    summary: "強みを生かせる小さな市場を選び、固定費を抑えて試しながら、専門性と信頼を育てる新規事業の進め方です。",
+    category: "AI・キャリア",
+    purposes: ["AI・キャリア", "管理職・経営者", "仕事効率化"],
+    minutes: 15,
+    priority: 29,
+    url: "https://www.vbarpa.com/post/%E5%B0%8F%E3%81%95%E3%81%AA%E5%B8%82%E5%A0%B4%E3%81%A7%E3%80%81%E6%9C%80%E5%88%9D%E3%81%AB%E6%80%9D%E3%81%84%E5%87%BA%E3%81%95%E3%82%8C%E3%82%8B%E5%AD%98%E5%9C%A8%E3%81%AB%E3%81%AA%E3%82%8B%E3%80%82%E3%83%8B%E3%83%83%E3%83%81%E3%83%88%E3%83%83%E3%83%97%E3%81%A7%E6%96%B0%E8%A6%8F%E4%BA%8B%E6%A5%AD%E3%82%92%E7%AB%8B%E3%81%A1%E4%B8%8A%E3%81%92%E3%82%8B%E6%96%B9%E6%B3%95"
+  },
+  {
+    id: "six-less-stress-habits",
+    image: "https://static.wixstatic.com/media/965064_b339fdfb898949f7b73a4156203e3ee9~mv2.png/v1/fill/w_1000,h_667,al_c,q_90,usm_0.66_1.00_0.01/965064_b339fdfb898949f7b73a4156203e3ee9~mv2.png",
+    title: "ストレスを減らし、人生の成果を増やす6つの習慣",
+    summary: "睡眠、朝の光と散歩、ディープワークなど、心身を整えながら大切なことを前へ進める6つの習慣を紹介します。",
+    category: "体調・回復",
+    purposes: ["疲労・睡眠", "集中できない", "仕事効率化"],
+    minutes: 8,
+    priority: 30,
+    url: "https://www.vbarpa.com/post/%E3%82%B9%E3%83%88%E3%83%AC%E3%82%B9%E3%82%92%E6%B8%9B%E3%82%89%E3%81%97%E3%80%81%E4%BA%BA%E7%94%9F%E3%81%AE%E6%88%90%E6%9E%9C%E3%82%92%E5%A2%97%E3%82%84%E3%81%996%E3%81%A4%E3%81%AE%E7%BF%92%E6%85%A3"
   }
 ];
