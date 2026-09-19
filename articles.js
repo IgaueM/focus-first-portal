@@ -338,5 +338,27 @@ window.FOCUS_ARTICLES = [
     minutes: 8,
     priority: 30,
     url: "https://www.vbarpa.com/post/%E3%82%B9%E3%83%88%E3%83%AC%E3%82%B9%E3%82%92%E6%B8%9B%E3%82%89%E3%81%97%E3%80%81%E4%BA%BA%E7%94%9F%E3%81%AE%E6%88%90%E6%9E%9C%E3%82%92%E5%A2%97%E3%82%84%E3%81%996%E3%81%A4%E3%81%AE%E7%BF%92%E6%85%A3"
+  },
+  {
+    id: "pomodoro-technique",
+    image: "https://static.wixstatic.com/media/965064_e355675dad1645139383615a433b4925~mv2.png/v1/fill/w_1000,h_563,al_c,q_90,usm_0.66_1.00_0.01/965064_e355675dad1645139383615a433b4925~mv2.png",
+    title: "ポモドーロ・テクニック：慣れた作業を少ない負荷で長時間流す",
+    summary: "25分の作業と短い休憩を繰り返し、集中力の上げすぎを防ぎながら、慣れた仕事を安定して長く進める方法です。",
+    category: "実践・時間管理",
+    purposes: ["仕事効率化", "勉強効率化", "集中できない"],
+    minutes: 3,
+    priority: 31,
+    url: "https://www.vbarpa.com/post/%E3%83%9D%E3%83%A2%E3%83%89%E3%83%BC%E3%83%AD%E3%83%BB%E3%83%86%E3%82%AF%E3%83%8B%E3%83%83%E3%82%AF%EF%BC%9A%E9%9B%86%E4%B8%AD%E5%8A%9B%E3%82%92%E9%AB%98%E3%82%81%E3%82%8B%E6%99%82%E9%96%93%E7%AE%A1%E7%90%86%E3%81%AE%E3%83%86%E3%82%AF%E3%83%8B%E3%83%83%E3%82%AF"
+  },
+  {
+    id: "sam-altman-focus-growth",
+    image: "https://static.wixstatic.com/media/965064_f76ec2a47ae94d179c4334f0d3edf331~mv2.png/v1/fill/w_1000,h_667,al_c,q_90,usm_0.66_1.00_0.01/965064_f76ec2a47ae94d179c4334f0d3edf331~mv2.png",
+    title: "サム・アルトマンに学ぶ「集中力」と「成長」――午前中の数時間を守る人が、長期で強くなる",
+    summary: "午前中の集中しやすい時間を、目先の対応ではなく、自分の能力と長期的な成果を育てる仕事へ優先的に使います。",
+    category: "基本・考え方",
+    purposes: ["仕事効率化", "AI・キャリア", "集中できない"],
+    minutes: 11,
+    priority: 32,
+    url: "https://www.vbarpa.com/post/%E3%82%B5%E3%83%A0%E3%83%BB%E3%82%A2%E3%83%AB%E3%83%88%E3%83%9E%E3%83%B3%E3%81%AB%E5%AD%A6%E3%81%B6%E3%80%8C%E9%9B%86%E4%B8%AD%E5%8A%9B%E3%80%8D%E3%81%A8%E3%80%8C%E6%88%90%E9%95%B7%E3%80%8D%E2%80%95%E2%80%95%E5%8D%88%E5%89%8D%E4%B8%AD%E3%81%AE%E6%95%B0%E6%99%82%E9%96%93%E3%82%92%E5%AE%88%E3%82%8B%E4%BA%BA%E3%81%8C%E3%80%81%E9%95%B7%E6%9C%9F%E3%81%A7%E5%BC%B7%E3%81%8F%E3%81%AA%E3%82%8B"
   }
 ];
