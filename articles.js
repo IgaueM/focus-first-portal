@@ -360,5 +360,16 @@ window.FOCUS_ARTICLES = [
     minutes: 11,
     priority: 32,
     url: "https://www.vbarpa.com/post/%E3%82%B5%E3%83%A0%E3%83%BB%E3%82%A2%E3%83%AB%E3%83%88%E3%83%9E%E3%83%B3%E3%81%AB%E5%AD%A6%E3%81%B6%E3%80%8C%E9%9B%86%E4%B8%AD%E5%8A%9B%E3%80%8D%E3%81%A8%E3%80%8C%E6%88%90%E9%95%B7%E3%80%8D%E2%80%95%E2%80%95%E5%8D%88%E5%89%8D%E4%B8%AD%E3%81%AE%E6%95%B0%E6%99%82%E9%96%93%E3%82%92%E5%AE%88%E3%82%8B%E4%BA%BA%E3%81%8C%E3%80%81%E9%95%B7%E6%9C%9F%E3%81%A7%E5%BC%B7%E3%81%8F%E3%81%AA%E3%82%8B"
+  },
+  {
+    id: "essential-thinking",
+    image: "https://static.wixstatic.com/media/965064_f2408d9bde6844f9980787f920f58828~mv2.png/v1/fill/w_1000,h_563,al_c,q_90,usm_0.66_1.00_0.01/965064_f2408d9bde6844f9980787f920f58828~mv2.png",
+    title: "エッセンシャル思考とは？「全部やる」を手放し、本当に重要な仕事に集中する",
+    summary: "限られた時間・注意力・体力を本当に価値のある仕事へ配分するために、何をするかより先に、何をしないかを決めます。",
+    category: "基本・考え方",
+    purposes: ["仕事効率化", "集中できない", "管理職・経営者"],
+    minutes: 8,
+    priority: 33,
+    url: "https://www.vbarpa.com/post/%E3%82%A8%E3%83%83%E3%82%BB%E3%83%B3%E3%82%B7%E3%83%A3%E3%83%AB%E6%80%9D%E8%80%83%E3%81%A8%E3%81%AF%EF%BC%9F%E3%80%8C%E5%85%A8%E9%83%A8%E3%82%84%E3%82%8B%E3%80%8D%E3%82%92%E6%89%8B%E6%94%BE%E3%81%97%E3%80%81%E6%9C%AC%E5%BD%93%E3%81%AB%E9%87%8D%E8%A6%81%E3%81%AA%E4%BB%95%E4%BA%8B%E3%81%AB%E9%9B%86%E4%B8%AD%E3%81%99%E3%82%8B"
   }
 ];
