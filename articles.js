@@ -371,5 +371,27 @@ window.FOCUS_ARTICLES = [
     minutes: 8,
     priority: 33,
     url: "https://www.vbarpa.com/post/%E3%82%A8%E3%83%83%E3%82%BB%E3%83%B3%E3%82%B7%E3%83%A3%E3%83%AB%E6%80%9D%E8%80%83%E3%81%A8%E3%81%AF%EF%BC%9F%E3%80%8C%E5%85%A8%E9%83%A8%E3%82%84%E3%82%8B%E3%80%8D%E3%82%92%E6%89%8B%E6%94%BE%E3%81%97%E3%80%81%E6%9C%AC%E5%BD%93%E3%81%AB%E9%87%8D%E8%A6%81%E3%81%AA%E4%BB%95%E4%BA%8B%E3%81%AB%E9%9B%86%E4%B8%AD%E3%81%99%E3%82%8B"
+  },
+  {
+    id: "focus-and-conversation-joy",
+    image: "https://static.wixstatic.com/media/965064_262a9c12b057491a9ff77cb8f3bb7312~mv2.png/v1/fill/w_1000,h_563,al_c,q_90,usm_0.66_1.00_0.01/965064_262a9c12b057491a9ff77cb8f3bb7312~mv2.png",
+    title: "集中すると楽しい。人と話しても楽しい。その違いは？",
+    summary: "集中から生まれる達成の喜びと、人との会話から生まれるつながりの喜び。その違いを理解し、日々の幸福に生かします。",
+    category: "基本・考え方",
+    purposes: ["集中できない", "仕事効率化", "AI・キャリア"],
+    minutes: 6,
+    priority: 34,
+    url: "https://www.vbarpa.com/post/%E9%9B%86%E4%B8%AD%E3%81%99%E3%82%8B%E3%81%A8%E6%A5%BD%E3%81%97%E3%81%84%E3%80%82%E4%BA%BA%E3%81%A8%E8%A9%B1%E3%81%97%E3%81%A6%E3%82%82%E6%A5%BD%E3%81%97%E3%81%84%E3%80%82%E3%81%9D%E3%81%AE%E9%81%95%E3%81%84%E3%81%AF%EF%BC%9F"
+  },
+  {
+    id: "five-focus-first-purposes",
+    image: "https://static.wixstatic.com/media/965064_fe3c3e2bdd4e4b708e93431105e56ee5~mv2.png/v1/fill/w_1000,h_563,al_c,q_90,usm_0.66_1.00_0.01/965064_fe3c3e2bdd4e4b708e93431105e56ee5~mv2.png",
+    title: "「集中力ファースト」を取り入れる５つの目的――学び、仕事、生き方を変えるために",
+    summary: "学びを深め、仕事の成果を高め、心身の負担を減らし、自分らしく価値を生み続けるための5つの目的を紹介します。",
+    category: "基本・考え方",
+    purposes: ["集中できない", "仕事効率化", "勉強効率化", "AI・キャリア"],
+    minutes: 5,
+    priority: 35,
+    url: "https://www.vbarpa.com/post/%E3%80%8C%E9%9B%86%E4%B8%AD%E5%8A%9B%E3%83%95%E3%82%A1%E3%83%BC%E3%82%B9%E3%83%88%E3%80%8D%E3%82%92%E5%8F%96%E3%82%8A%E5%85%A5%E3%82%8C%E3%82%8B%EF%BC%95%E3%81%A4%E3%81%AE%E7%9B%AE%E7%9A%84%E2%80%95%E2%80%95%E5%AD%A6%E3%81%B3%E3%80%81%E4%BB%95%E4%BA%8B%E3%80%81%E7%94%9F%E3%81%8D%E6%96%B9%E3%82%92%E5%A4%89%E3%81%88%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AB"
   }
 ];
